@@ -1,0 +1,8 @@
+[2026-06-02 13:29:29,353] 97 werkzeug - WARNING -  * Debugger is active!
+[2026-06-02 13:29:29,360] 97 werkzeug - INFO -  * Debugger PIN: 403-529-949
+[2026-06-02 13:33:45,049] 97 werkzeug - INFO - 127.0.0.1 - - [02/Jun/2026 13:33:45] "[35m[1mGET / HTTP/1.1[0m" 500 -
+[2026-06-02 13:33:45,291] 97 werkzeug - INFO - 127.0.0.1 - - [02/Jun/2026 13:33:45] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2026-06-02 13:33:45,327] 97 werkzeug - INFO - 127.0.0.1 - - [02/Jun/2026 13:33:45] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2026-06-02 13:33:45,746] 97 werkzeug - INFO - 127.0.0.1 - - [02/Jun/2026 13:33:45] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=tRO31lqyFjxOhuWLzPlj HTTP/1.1" 200 -
+[2026-06-02 13:33:46,001] 97 werkzeug - INFO - 127.0.0.1 - - [02/Jun/2026 13:33:46] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2026-06-02 13:42:03,876] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\aparn\\OneDrive\\Desktop\\mlops_project\\Data\\CC_MLOps_project\\Machine_Learning_MLOPS_Project\\Machine_Learning_MLOPS_Project\\application.py', reloading

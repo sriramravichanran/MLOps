@@ -1,0 +1,4 @@
+[2026-05-26 14:49:43,926] 20 utils.utils - INFO - Successfully YAML file reading operation is done...
+[2026-05-26 14:49:43,927] 136 __main__ - INFO - Loading data from RAW Directory
+[2026-05-26 14:49:43,928] 33 utils.utils - ERROR - Error while loading the Data
+[2026-05-26 14:49:43,929] 160 __main__ - ERROR - Error during applying Preprocessing Steps: Error Occured in script: [C:\Users\aparn\OneDrive\Desktop\mlops_project\Data\CC_MLOps_project\Machine_Learning_MLOPS_Project\Machine_Learning_MLOPS_Project\utils\utils.py]at line number: [29]error message: [Failed to load the Data]

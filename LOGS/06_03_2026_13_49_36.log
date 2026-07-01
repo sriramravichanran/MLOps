@@ -1,0 +1,7 @@
+[ 2026-06-03 13:49:40,043 ] 97 - werkzeug - WARNING -  * Debugger is active!
+[ 2026-06-03 13:49:40,075 ] 97 - werkzeug - INFO -  * Debugger PIN: 403-529-949
+[ 2026-06-03 13:51:17,101 ] 97 - werkzeug - INFO - 127.0.0.1 - - [03/Jun/2026 13:51:17] "GET / HTTP/1.1" 200 -
+[ 2026-06-03 13:51:17,373 ] 97 - werkzeug - INFO - 127.0.0.1 - - [03/Jun/2026 13:51:17] "GET /static/style.css HTTP/1.1" 200 -
+[ 2026-06-03 13:51:21,467 ] 97 - werkzeug - INFO - 127.0.0.1 - - [03/Jun/2026 13:51:21] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[ 2026-06-03 13:52:15,758 ] 97 - werkzeug - INFO - 127.0.0.1 - - [03/Jun/2026 13:52:15] "POST / HTTP/1.1" 200 -
+[ 2026-06-03 13:52:15,803 ] 97 - werkzeug - INFO - 127.0.0.1 - - [03/Jun/2026 13:52:15] "[36mGET /static/style.css HTTP/1.1[0m" 304 -

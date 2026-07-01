@@ -1,0 +1,11 @@
+[2026-05-26 15:19:26,876] 20 utils.utils - INFO - Successfully YAML file reading operation is done...
+[2026-05-26 15:19:26,877] 136 __main__ - INFO - Loading data from RAW Directory
+[2026-05-26 15:19:28,646] 30 utils.utils - INFO - Data loaded Successfully from path: C:\Users\aparn\OneDrive\Desktop\mlops_project\Data\CC_MLOps_project\Machine_Learning_MLOPS_Project\Machine_Learning_MLOPS_Project\artifacts\raw\train.csv
+[2026-05-26 15:19:29,118] 30 utils.utils - INFO - Data loaded Successfully from path: C:\Users\aparn\OneDrive\Desktop\mlops_project\Data\CC_MLOps_project\Machine_Learning_MLOPS_Project\Machine_Learning_MLOPS_Project\artifacts\raw\test.csv
+[2026-05-26 15:19:29,141] 27 __main__ - INFO - Preprocessing step is Started....!
+[2026-05-26 15:19:30,228] 30 __main__ - INFO - Duplicates Removed....!
+[2026-05-26 15:19:30,228] 38 __main__ - INFO - Duplicates Removed....!
+[2026-05-26 15:19:30,242] 42 __main__ - INFO - Time column coverted into Hour of the Day
+[2026-05-26 15:19:30,242] 45 __main__ - INFO - Skewness Process -> Started
+[2026-05-26 15:19:30,243] 58 __main__ - ERROR - Error while preprocess steps: 'skewness_thresold'
+[2026-05-26 15:19:30,243] 160 __main__ - ERROR - Error during applying Preprocessing Steps: Error Occured in script: [C:\Users\aparn\OneDrive\Desktop\mlops_project\Data\CC_MLOps_project\Machine_Learning_MLOPS_Project\Machine_Learning_MLOPS_Project\src\data_preprocessing.py]at line number: [46]error message: [Failed to perform Preprocessing]

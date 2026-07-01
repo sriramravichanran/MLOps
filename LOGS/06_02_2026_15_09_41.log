@@ -1,0 +1,9 @@
+[ 2026-06-02 15:09:41,906 ] 21 - utils.utils - INFO - Successfully YAML file reading operation is done...
+[ 2026-06-02 15:09:41,907 ] 23 - __main__ - INFO - Data Ingestion started --- storage-cc-data-001 and file is credit_card.csv
+[ 2026-06-02 15:09:41,907 ] 56 - __main__ - INFO - Data Ingestion is Started...!
+[ 2026-06-02 15:09:41,907 ] 40 - __main__ - INFO - Started with Splitting the data into Train & Test Split...
+[ 2026-06-02 15:09:41,990 ] 47 - __main__ - INFO - Train data is Saved to C:\Users\aparn\OneDrive\Desktop\mlops_project\Data\CC_MLOps_project\Machine_Learning_MLOPS_Project\Machine_Learning_MLOPS_Project\artifacts\raw\train.csv
+[ 2026-06-02 15:09:42,005 ] 48 - __main__ - INFO - Test data is Saved to C:\Users\aparn\OneDrive\Desktop\mlops_project\Data\CC_MLOps_project\Machine_Learning_MLOPS_Project\Machine_Learning_MLOPS_Project\artifacts\raw\test.csv
+[ 2026-06-02 15:09:42,006 ] 62 - __main__ - INFO - Raw data is splitted into Train & Test Successfully...
+[ 2026-06-02 15:09:42,006 ] 64 - __main__ - INFO - Data Ingestion is Successfully Completed...!
+[ 2026-06-02 15:09:42,006 ] 70 - __main__ - INFO - Data Ingestion Completed

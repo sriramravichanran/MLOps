@@ -1,0 +1,56 @@
+[2026-05-29 13:55:20,769] 21 utils.utils - INFO - Successfully YAML file reading operation is done...
+[2026-05-29 13:55:20,771] 23 src.data_ingestion - INFO - Data Ingestion started --- storage-cc-data-001 and file is credit_card.csv
+[2026-05-29 13:55:20,771] 61 src.data_ingestion - INFO - Data Ingestion is Started...!
+[2026-05-29 13:55:20,771] 44 src.data_ingestion - INFO - Started with splitting the data into Train & Test Split..
+[2026-05-29 13:55:35,094] 51 src.data_ingestion - INFO - Train data is Saved to C:\Users\aparn\OneDrive\Desktop\mlops_project\Data\CC_MLOps_project\Machine_Learning_MLOPS_Project\Machine_Learning_MLOPS_Project\artifacts\raw\train.csv
+[2026-05-29 13:55:35,117] 52 src.data_ingestion - INFO - Test data is Saved to C:\Users\aparn\OneDrive\Desktop\mlops_project\Data\CC_MLOps_project\Machine_Learning_MLOPS_Project\Machine_Learning_MLOPS_Project\artifacts\raw\test.csv
+[2026-05-29 13:55:35,129] 68 src.data_ingestion - INFO - Raw data is splitted into Train and Test succeessfully...
+[2026-05-29 13:55:35,129] 74 src.data_ingestion - INFO - Data Ingestion Completed
+[2026-05-29 13:55:35,133] 21 utils.utils - INFO - Successfully YAML file reading operation is done...
+[2026-05-29 13:55:35,133] 144 src.data_preprocessing - INFO - Loading data from RAW Directory
+[2026-05-29 13:55:36,957] 31 utils.utils - INFO - Data loaded Successfully from path: C:\Users\aparn\OneDrive\Desktop\mlops_project\Data\CC_MLOps_project\Machine_Learning_MLOPS_Project\Machine_Learning_MLOPS_Project\artifacts\raw\train.csv
+[2026-05-29 13:55:37,401] 31 utils.utils - INFO - Data loaded Successfully from path: C:\Users\aparn\OneDrive\Desktop\mlops_project\Data\CC_MLOps_project\Machine_Learning_MLOPS_Project\Machine_Learning_MLOPS_Project\artifacts\raw\test.csv
+[2026-05-29 13:55:37,401] 28 src.data_preprocessing - INFO - Preprocessing step is Started....!
+[2026-05-29 13:55:38,328] 31 src.data_preprocessing - INFO - Duplicates Removed....!
+[2026-05-29 13:55:38,328] 39 src.data_preprocessing - INFO - Duplicates Removed....!
+[2026-05-29 13:55:38,341] 43 src.data_preprocessing - INFO - Time column coverted into Hour of the Day
+[2026-05-29 13:55:38,342] 46 src.data_preprocessing - INFO - Skewness Process -> Started
+[2026-05-29 13:55:38,500] 28 src.data_preprocessing - INFO - Preprocessing step is Started....!
+[2026-05-29 13:55:38,705] 31 src.data_preprocessing - INFO - Duplicates Removed....!
+[2026-05-29 13:55:38,705] 39 src.data_preprocessing - INFO - Duplicates Removed....!
+[2026-05-29 13:55:38,709] 43 src.data_preprocessing - INFO - Time column coverted into Hour of the Day
+[2026-05-29 13:55:38,710] 46 src.data_preprocessing - INFO - Skewness Process -> Started
+[2026-05-29 13:55:38,735] 64 src.data_preprocessing - INFO - Handling Imbalanced Data
+[2026-05-29 13:55:46,063] 79 src.data_preprocessing - INFO - Imbalanced Data is handled Successfully...
+[2026-05-29 13:55:46,084] 64 src.data_preprocessing - INFO - Handling Imbalanced Data
+[2026-05-29 13:55:46,293] 79 src.data_preprocessing - INFO - Imbalanced Data is handled Successfully...
+[2026-05-29 13:55:46,299] 89 src.data_preprocessing - INFO - Started Feature Selection
+[2026-05-29 13:55:50,995] 115 src.data_preprocessing - INFO - Selected Features: <StringArray>
+['V10', 'V14', 'V12', 'V4', 'V17', 'V16', 'V9', 'V8', 'V11', 'V26']
+Length: 10, dtype: str
+[2026-05-29 13:55:51,022] 130 src.data_preprocessing - INFO - Saving data from preprocessed folder....!
+[2026-05-29 13:55:57,588] 135 src.data_preprocessing - INFO - Data Saved Successfully to C:\Users\aparn\OneDrive\Desktop\mlops_project\Data\CC_MLOps_project\Machine_Learning_MLOPS_Project\Machine_Learning_MLOPS_Project\artifacts\processed_data\processed_train_data.csv
+[2026-05-29 13:55:57,588] 130 src.data_preprocessing - INFO - Saving data from preprocessed folder....!
+[2026-05-29 13:55:59,183] 135 src.data_preprocessing - INFO - Data Saved Successfully to C:\Users\aparn\OneDrive\Desktop\mlops_project\Data\CC_MLOps_project\Machine_Learning_MLOPS_Project\Machine_Learning_MLOPS_Project\artifacts\processed_data\processed_test_data.csv
+[2026-05-29 13:55:59,183] 166 src.data_preprocessing - INFO - Data Preprocessing is completed Successfully....!
+[2026-05-29 13:55:59,186] 136 src.model_training - INFO - Started Model Training Pipeline
+[2026-05-29 13:55:59,186] 30 src.model_training - INFO - Loading data from: C:\Users\aparn\OneDrive\Desktop\mlops_project\Data\CC_MLOps_project\Machine_Learning_MLOPS_Project\Machine_Learning_MLOPS_Project\artifacts\processed_data\processed_train_data.csv
+[2026-05-29 13:56:00,374] 31 utils.utils - INFO - Data loaded Successfully from path: C:\Users\aparn\OneDrive\Desktop\mlops_project\Data\CC_MLOps_project\Machine_Learning_MLOPS_Project\Machine_Learning_MLOPS_Project\artifacts\processed_data\processed_train_data.csv
+[2026-05-29 13:56:00,374] 33 src.model_training - INFO - Loading data from: C:\Users\aparn\OneDrive\Desktop\mlops_project\Data\CC_MLOps_project\Machine_Learning_MLOPS_Project\Machine_Learning_MLOPS_Project\artifacts\processed_data\processed_test_data.csv
+[2026-05-29 13:56:00,711] 31 utils.utils - INFO - Data loaded Successfully from path: C:\Users\aparn\OneDrive\Desktop\mlops_project\Data\CC_MLOps_project\Machine_Learning_MLOPS_Project\Machine_Learning_MLOPS_Project\artifacts\processed_data\processed_test_data.csv
+[2026-05-29 13:56:00,712] 36 src.model_training - INFO - Train Data Shape: (453466, 11)
+[2026-05-29 13:56:00,712] 37 src.model_training - INFO - Test Data Shape: (113608, 11)
+[2026-05-29 13:56:00,714] 55 src.model_training - INFO - Data Loading & Splitting is completed sucessfully and ready for model training....!
+[2026-05-29 13:56:00,715] 64 src.model_training - INFO - Initializing the Model
+[2026-05-29 13:56:00,715] 68 src.model_training - INFO - Starting our HyperParameter Tunning...
+[2026-05-29 13:56:00,716] 81 src.model_training - INFO - Started - Model Training with HyperParameter Tunning...!
+[2026-05-29 14:01:08,058] 83 src.model_training - INFO - HyperParameter Tunning is Completed Successfully...!
+[2026-05-29 14:01:08,059] 88 src.model_training - INFO - Best Parameters: {'boosting_type': 'goss', 'learning': np.float64(0.10184977839317343), 'max_depth': 40, 'n_estimators': 459}
+[2026-05-29 14:01:08,059] 98 src.model_training - INFO - Started with Evaluating the Model
+[2026-05-29 14:01:09,272] 106 src.model_training - INFO - Accuracy Score: 0.9515703119498626
+[2026-05-29 14:01:09,272] 107 src.model_training - INFO - precision: 0.9940295057971573
+[2026-05-29 14:01:09,273] 108 src.model_training - INFO - Recall: 0.9085979860573199
+[2026-05-29 14:01:09,273] 109 src.model_training - INFO - F1: 0.9493957287125434
+[2026-05-29 14:01:09,274] 125 src.model_training - INFO - Saving the Model
+[2026-05-29 14:01:09,318] 127 src.model_training - INFO - Successfully Model is Saved into: artifacts/models/lg_model.pkl
+[2026-05-29 14:01:09,318] 152 src.model_training - INFO - Model Training Pipeline Completed Successfully

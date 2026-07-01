@@ -1,0 +1,6 @@
+[2026-05-26 14:55:37,141] 20 utils.utils - INFO - Successfully YAML file reading operation is done...
+[2026-05-26 14:55:37,142] 23 __main__ - INFO - Data Ingestion started --- storage-cc-data-001 and file is credit_card.csv
+[2026-05-26 14:55:37,142] 66 __main__ - INFO - Data Ingestion is Started...!
+[2026-05-26 14:55:47,487] 43 __main__ - ERROR - Error while downloading CSV file: {e}
+[2026-05-26 14:55:47,488] 79 __main__ - ERROR - CustomException: Error Occured in script: [C:\Users\aparn\OneDrive\Desktop\mlops_project\Data\CC_MLOps_project\Machine_Learning_MLOPS_Project\Machine_Learning_MLOPS_Project\src\data_ingestion.py]at line number: [31]error message: [Failed to download CSV file]
+[2026-05-26 14:55:47,511] 82 __main__ - INFO - Data Ingestion Completed

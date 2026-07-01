@@ -1,0 +1,28 @@
+[ 2026-06-02 15:09:16,343 ] 21 - utils.utils - INFO - Successfully YAML file reading operation is done...
+[ 2026-06-02 15:09:16,344 ] 158 - __main__ - INFO - Loading data from RAW Directory
+[ 2026-06-02 15:09:16,355 ] 31 - utils.utils - INFO - Data loaded Successfully from path: C:\Users\aparn\OneDrive\Desktop\mlops_project\Data\CC_MLOps_project\Machine_Learning_MLOPS_Project\Machine_Learning_MLOPS_Project\artifacts\raw\train.csv
+[ 2026-06-02 15:09:16,360 ] 31 - utils.utils - INFO - Data loaded Successfully from path: C:\Users\aparn\OneDrive\Desktop\mlops_project\Data\CC_MLOps_project\Machine_Learning_MLOPS_Project\Machine_Learning_MLOPS_Project\artifacts\raw\test.csv
+[ 2026-06-02 15:09:16,383 ] 27 - __main__ - INFO - Preprocessing step is Started....!
+[ 2026-06-02 15:09:16,389 ] 30 - __main__ - INFO - Duplicates Removed....!
+[ 2026-06-02 15:09:16,390 ] 38 - __main__ - INFO - Duplicates Removed....!
+[ 2026-06-02 15:09:16,390 ] 42 - __main__ - INFO - Time column coverted into Hour of the Day
+[ 2026-06-02 15:09:16,390 ] 45 - __main__ - INFO - Skewness Process -> Started
+[ 2026-06-02 15:09:16,396 ] 27 - __main__ - INFO - Preprocessing step is Started....!
+[ 2026-06-02 15:09:16,400 ] 30 - __main__ - INFO - Duplicates Removed....!
+[ 2026-06-02 15:09:16,400 ] 38 - __main__ - INFO - Duplicates Removed....!
+[ 2026-06-02 15:09:16,401 ] 42 - __main__ - INFO - Time column coverted into Hour of the Day
+[ 2026-06-02 15:09:16,401 ] 45 - __main__ - INFO - Skewness Process -> Started
+[ 2026-06-02 15:09:16,405 ] 63 - __main__ - INFO - Handling Imbalanced Data
+[ 2026-06-02 15:09:22,730 ] 80 - __main__ - INFO - Imbalanced Data is handled Successfully...
+[ 2026-06-02 15:09:22,730 ] 91 - __main__ - INFO - Started with Feature Selection Process....
+[ 2026-06-02 15:09:22,746 ] 126 - __main__ - INFO - Features Selected: <StringArray>
+[   'V23',    'V18',    'V12',    'V22',    'V20',    'V21',     'V8',
+    'V10', 'Amount',     'V4',    'V15',    'V24',     'V5',     'V7',
+     'V1',    'V16',    'V27',    'V14',    'V19',     'V9']
+Length: 20, dtype: str
+[ 2026-06-02 15:09:22,747 ] 134 - __main__ - INFO - Feature Selection is done Successfully....
+[ 2026-06-02 15:09:22,748 ] 146 - __main__ - INFO - Saving data from preprocessed folder....!
+[ 2026-06-02 15:09:22,808 ] 150 - __main__ - INFO - Data Saved Successfully to C:\Users\aparn\OneDrive\Desktop\mlops_project\Data\CC_MLOps_project\Machine_Learning_MLOPS_Project\Machine_Learning_MLOPS_Project\artifacts\processed_data\processed_train_data.csv
+[ 2026-06-02 15:09:22,808 ] 146 - __main__ - INFO - Saving data from preprocessed folder....!
+[ 2026-06-02 15:09:22,819 ] 150 - __main__ - INFO - Data Saved Successfully to C:\Users\aparn\OneDrive\Desktop\mlops_project\Data\CC_MLOps_project\Machine_Learning_MLOPS_Project\Machine_Learning_MLOPS_Project\artifacts\processed_data\processed_test_data.csv
+[ 2026-06-02 15:09:22,819 ] 188 - __main__ - INFO - Data Preprocessing is completed Successfully....!

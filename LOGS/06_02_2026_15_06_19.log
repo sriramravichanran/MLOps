@@ -1,0 +1,17 @@
+[ 2026-06-02 15:06:22,158 ] 21 - utils.utils - INFO - Successfully YAML file reading operation is done...
+[ 2026-06-02 15:06:22,158 ] 158 - __main__ - INFO - Loading data from RAW Directory
+[ 2026-06-02 15:06:22,172 ] 31 - utils.utils - INFO - Data loaded Successfully from path: C:\Users\aparn\OneDrive\Desktop\mlops_project\Data\CC_MLOps_project\Machine_Learning_MLOPS_Project\Machine_Learning_MLOPS_Project\artifacts\raw\train.csv
+[ 2026-06-02 15:06:22,177 ] 31 - utils.utils - INFO - Data loaded Successfully from path: C:\Users\aparn\OneDrive\Desktop\mlops_project\Data\CC_MLOps_project\Machine_Learning_MLOPS_Project\Machine_Learning_MLOPS_Project\artifacts\raw\test.csv
+[ 2026-06-02 15:06:22,200 ] 27 - __main__ - INFO - Preprocessing step is Started....!
+[ 2026-06-02 15:06:22,207 ] 30 - __main__ - INFO - Duplicates Removed....!
+[ 2026-06-02 15:06:22,208 ] 38 - __main__ - INFO - Duplicates Removed....!
+[ 2026-06-02 15:06:22,208 ] 42 - __main__ - INFO - Time column coverted into Hour of the Day
+[ 2026-06-02 15:06:22,208 ] 45 - __main__ - INFO - Skewness Process -> Started
+[ 2026-06-02 15:06:22,214 ] 27 - __main__ - INFO - Preprocessing step is Started....!
+[ 2026-06-02 15:06:22,219 ] 30 - __main__ - INFO - Duplicates Removed....!
+[ 2026-06-02 15:06:22,219 ] 38 - __main__ - INFO - Duplicates Removed....!
+[ 2026-06-02 15:06:22,220 ] 42 - __main__ - INFO - Time column coverted into Hour of the Day
+[ 2026-06-02 15:06:22,220 ] 45 - __main__ - INFO - Skewness Process -> Started
+[ 2026-06-02 15:06:22,225 ] 63 - __main__ - INFO - Handling Imbalanced Data
+[ 2026-06-02 15:06:22,235 ] 84 - __main__ - ERROR - Error while Handling Imbalaned Data: Expected n_neighbors <= n_samples_fit, but n_neighbors = 6, n_samples_fit = 2, n_samples = 2
+[ 2026-06-02 15:06:22,235 ] 191 - __main__ - ERROR - Error during applying Preprocessing Steps: Error Occured in script: [C:\Users\aparn\OneDrive\Desktop\mlops_project\Data\CC_MLOps_project\Machine_Learning_MLOPS_Project\Machine_Learning_MLOPS_Project\src\data_preprocessing.py]at line number: [75]error message: [Failed to Handle Imbalaned Data:]

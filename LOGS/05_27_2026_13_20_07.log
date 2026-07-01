@@ -1,0 +1,21 @@
+[2026-05-27 13:20:07,471] 136 __main__ - INFO - Started Model Training Pipeline
+[2026-05-27 13:20:07,472] 30 __main__ - INFO - Loading data from: C:\Users\aparn\OneDrive\Desktop\mlops_project\Data\CC_MLOps_project\Machine_Learning_MLOPS_Project\Machine_Learning_MLOPS_Project\artifacts\processed_data\processed_train_data.csv
+[2026-05-27 13:20:08,969] 31 utils.utils - INFO - Data loaded Successfully from path: C:\Users\aparn\OneDrive\Desktop\mlops_project\Data\CC_MLOps_project\Machine_Learning_MLOPS_Project\Machine_Learning_MLOPS_Project\artifacts\processed_data\processed_train_data.csv
+[2026-05-27 13:20:08,993] 33 __main__ - INFO - Loading data from: C:\Users\aparn\OneDrive\Desktop\mlops_project\Data\CC_MLOps_project\Machine_Learning_MLOPS_Project\Machine_Learning_MLOPS_Project\artifacts\processed_data\processed_test_data.csv
+[2026-05-27 13:20:09,318] 31 utils.utils - INFO - Data loaded Successfully from path: C:\Users\aparn\OneDrive\Desktop\mlops_project\Data\CC_MLOps_project\Machine_Learning_MLOPS_Project\Machine_Learning_MLOPS_Project\artifacts\processed_data\processed_test_data.csv
+[2026-05-27 13:20:09,318] 36 __main__ - INFO - Train Data Shape: (453466, 11)
+[2026-05-27 13:20:09,318] 37 __main__ - INFO - Test Data Shape: (113608, 11)
+[2026-05-27 13:20:09,322] 55 __main__ - INFO - Data Loading & Splitting is completed sucessfully and ready for model training....!
+[2026-05-27 13:20:09,322] 64 __main__ - INFO - Initializing the Model
+[2026-05-27 13:20:09,322] 68 __main__ - INFO - Starting our HyperParameter Tunning...
+[2026-05-27 13:20:09,323] 81 __main__ - INFO - Started - Model Training with HyperParameter Tunning...!
+[2026-05-27 13:24:43,746] 83 __main__ - INFO - HyperParameter Tunning is Completed Successfully...!
+[2026-05-27 13:24:43,747] 88 __main__ - INFO - Best Parameters: {'boosting_type': 'goss', 'learning': np.float64(0.10184977839317343), 'max_depth': 40, 'n_estimators': 459}
+[2026-05-27 13:24:43,747] 98 __main__ - INFO - Started with Evaluating the Model
+[2026-05-27 13:24:44,958] 106 __main__ - INFO - Accuracy Score: 0.9515703119498626
+[2026-05-27 13:24:44,959] 107 __main__ - INFO - precision: 0.9940295057971573
+[2026-05-27 13:24:44,959] 108 __main__ - INFO - Recall: 0.9085979860573199
+[2026-05-27 13:24:44,959] 109 __main__ - INFO - F1: 0.9493957287125434
+[2026-05-27 13:24:44,983] 125 __main__ - INFO - Saving the Model
+[2026-05-27 13:24:45,032] 127 __main__ - INFO - Successfully Model is Saved into: artifacts/models/lg_model.pkl
+[2026-05-27 13:24:45,032] 152 __main__ - INFO - Model Training Pipeline Completed Successfully

@@ -1,0 +1,5 @@
+[ 2026-06-02 15:16:33,889 ] 97 - werkzeug - WARNING -  * Debugger is active!
+[ 2026-06-02 15:16:33,895 ] 97 - werkzeug - INFO -  * Debugger PIN: 403-529-949
+[ 2026-06-02 15:17:42,551 ] 97 - werkzeug - INFO - 127.0.0.1 - - [02/Jun/2026 15:17:42] "GET / HTTP/1.1" 200 -
+[ 2026-06-02 15:18:19,967 ] 97 - werkzeug - INFO - 127.0.0.1 - - [02/Jun/2026 15:18:19] "POST / HTTP/1.1" 200 -
+[ 2026-06-02 15:23:13,667 ] 97 - werkzeug - INFO -  * Detected change in 'C:\\Users\\aparn\\OneDrive\\Desktop\\mlops_project\\Data\\CC_MLOps_project\\Machine_Learning_MLOPS_Project\\Machine_Learning_MLOPS_Project\\application.py', reloading

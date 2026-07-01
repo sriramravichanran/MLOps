@@ -1,0 +1,7 @@
+[2026-05-26 15:08:09,860] 20 utils.utils - INFO - Successfully YAML file reading operation is done...
+[2026-05-26 15:08:09,861] 23 __main__ - INFO - Data Ingestion started --- storage-cc-data-001 and file is credit_card.csv
+[2026-05-26 15:08:09,861] 60 __main__ - INFO - Data Ingestion is Started...!
+[2026-05-26 15:08:09,862] 43 __main__ - INFO - Started with splitting the data into Train & Test Split..
+[2026-05-26 15:08:09,863] 54 __main__ - INFO - Error while splitting the raw data into Train & Test Split
+[2026-05-26 15:08:09,863] 68 __main__ - ERROR - CustomException: Error Occured in script: [C:\Users\aparn\OneDrive\Desktop\mlops_project\Data\CC_MLOps_project\Machine_Learning_MLOPS_Project\Machine_Learning_MLOPS_Project\src\data_ingestion.py]at line number: [44]error message: [Failed to split the rawdata into Train and Test Split...!]
+[2026-05-26 15:08:09,883] 71 __main__ - INFO - Data Ingestion Completed

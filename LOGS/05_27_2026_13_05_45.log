@@ -1,0 +1,9 @@
+[2026-05-27 13:05:45,168] 136 __main__ - INFO - Started Model Training Pipeline
+[2026-05-27 13:05:45,169] 30 __main__ - INFO - Loading data from: C:\Users\aparn\OneDrive\Desktop\mlops_project\Data\CC_MLOps_project\Machine_Learning_MLOPS_Project\Machine_Learning_MLOPS_Project\artifacts\processed_data\processed_train_data.csv
+[2026-05-27 13:05:46,276] 31 utils.utils - INFO - Data loaded Successfully from path: C:\Users\aparn\OneDrive\Desktop\mlops_project\Data\CC_MLOps_project\Machine_Learning_MLOPS_Project\Machine_Learning_MLOPS_Project\artifacts\processed_data\processed_train_data.csv
+[2026-05-27 13:05:46,299] 33 __main__ - INFO - Loading data from: C:\Users\aparn\OneDrive\Desktop\mlops_project\Data\CC_MLOps_project\Machine_Learning_MLOPS_Project\Machine_Learning_MLOPS_Project\artifacts\processed_data\processed_test_data.csv
+[2026-05-27 13:05:46,593] 31 utils.utils - INFO - Data loaded Successfully from path: C:\Users\aparn\OneDrive\Desktop\mlops_project\Data\CC_MLOps_project\Machine_Learning_MLOPS_Project\Machine_Learning_MLOPS_Project\artifacts\processed_data\processed_test_data.csv
+[2026-05-27 13:05:46,593] 36 __main__ - INFO - Train Data Shape: (453466, 10)
+[2026-05-27 13:05:46,593] 37 __main__ - INFO - Test Data Shape: (113608, 10)
+[2026-05-27 13:05:46,594] 59 __main__ - ERROR - Error while Data Loading & Splitting for model training
+[2026-05-27 13:05:46,594] 155 __main__ - ERROR - Error in Model Training Pipeline

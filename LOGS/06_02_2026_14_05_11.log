@@ -1,0 +1,9 @@
+[2026-06-02 14:05:14,814] 97 werkzeug - WARNING -  * Debugger is active!
+[2026-06-02 14:05:14,820] 97 werkzeug - INFO -  * Debugger PIN: 403-529-949
+[2026-06-02 14:05:31,486] 97 werkzeug - INFO - 127.0.0.1 - - [02/Jun/2026 14:05:31] "GET / HTTP/1.1" 200 -
+[2026-06-02 14:05:31,556] 97 werkzeug - INFO - 127.0.0.1 - - [02/Jun/2026 14:05:31] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2026-06-02 14:06:18,104] 97 werkzeug - INFO - 127.0.0.1 - - [02/Jun/2026 14:06:18] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+[2026-06-02 14:06:18,359] 97 werkzeug - INFO - 127.0.0.1 - - [02/Jun/2026 14:06:18] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2026-06-02 14:06:18,466] 97 werkzeug - INFO - 127.0.0.1 - - [02/Jun/2026 14:06:18] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2026-06-02 14:06:18,843] 97 werkzeug - INFO - 127.0.0.1 - - [02/Jun/2026 14:06:18] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=hU8WakMx3XoFM3LAp8aU HTTP/1.1" 200 -
+[2026-06-02 14:06:19,098] 97 werkzeug - INFO - 127.0.0.1 - - [02/Jun/2026 14:06:19] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -

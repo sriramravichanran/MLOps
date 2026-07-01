@@ -1,0 +1,6 @@
+[2026-05-26 15:04:17,083] 20 utils.utils - INFO - Successfully YAML file reading operation is done...
+[2026-05-26 15:04:17,084] 23 __main__ - INFO - Data Ingestion started --- storage-cc-data-001 and file is credit_card.csv
+[2026-05-26 15:04:17,084] 60 __main__ - INFO - Data Ingestion is Started...!
+[2026-05-26 15:04:22,828] 37 __main__ - ERROR - Error while downloading CSV file: 403 GET https://storage.googleapis.com/download/storage/v1/b/storage-cc-data-001/o/credit_card.csv?alt=media: aparnaapillai0@gmail.com does not have storage.objects.get access to the Google Cloud Storage object. Permission &#39;storage.objects.get&#39; denied on resource (or it may not exist).: ('Request failed with status code', 403, 'Expected one of', <HTTPStatus.OK: 200>, <HTTPStatus.PARTIAL_CONTENT: 206>)
+[2026-05-26 15:04:22,829] 73 __main__ - ERROR - CustomException: Error Occured in script: [C:\Users\aparn\OneDrive\Desktop\mlops_project\Data\CC_MLOps_project\Machine_Learning_MLOPS_Project\Machine_Learning_MLOPS_Project\src\data_ingestion.py]at line number: [32]error message: [Failed to download CSV file]
+[2026-05-26 15:04:22,829] 76 __main__ - INFO - Data Ingestion Completed
