@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport", content="width=device-width, initial=scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>Credit Fraud Detection</title>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Credit Fraud Detection</h2>
+        
+        <form method="POST">
+            <div class="form-group">
+                <label for="V12">V12</label>
+                <input type="number" id="V12" name="V12" required>
+            </div>
+
+            <div class="form-group">
+                <label for="Amount">Amount</label>
+                <input type="number" id="Amount" name="Amount" required>
+            </div>
+
+            <div class="form-group">
+                <label for="V4">V4</label>
+                <input type="number" id="V4" name="V4" required>
+            </div>
+
+            
+            <div class="form-group">
+                <label for="V3">V3</label>
+                <input type="number" id="V3" name="V3" required>
+            </div>
+
+            <div class="form-group">
+                <label for="V2">V2</label>
+                <input type="number" id="V2" name="V2" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="V10">V10</label>
+                <input type="number" id="V10" name="V10" required>
+            </div>
+
+            <div class="form-group">
+                <label for="V18">V18</label>
+                <input type="number" id="V18" name="V18" required>
+            </div>
+
+            <div class="form-group">
+                <label for="V13">V13</label>
+                <input type="number" id="V13" name="V13" required>
+            </div>
+
+            <div class="form-group">
+                <label for="V14">V14</label>
+                <input type="number" id="V14" name="V14" required>
+            </div>
+
+            <div class="form-group">
+                <label for="V1">V1</label>
+                <input type="number" id="V1" name="V1" required>
+            </div>
+
+            <div class="form-group">
+                <label for="Time">Time</label>
+                <input type="number" id="Time" name="Time" required>
+            </div>
+
+            <div class="form-group">
+                <label for="V20">V20</label>
+                <input type="number" id="V20" name="V20" required>
+            </div>
+
+            <div class="form-group">
+                <label for="V22">V22</label>
+                <input type="number" id="V22" name="V22" required>
+            </div>
+
+            <div class="form-group">
+                <label for="V5">V5</label>
+                <input type="number" id="V5" name="V5" required>
+            </div>
+
+            <div class="form-group">
+                <label for="V9">V9</label>
+                <input type="number" id="V9" name="V9" required>
+            </div>
+
+            <div class="form-group">
+                <label for="V7">V7</label>
+                <input type="number" id="V7" name="V7" required>
+            </div>
+
+            <div class="form-group">
+                <label for="V21">V21</label>
+                <input type="number" id="V21" name="V21" required>
+            </div>
+
+            <div class="form-group">
+                <label for="V24">V24</label>
+                <input type="number" id="V24" name="V24" required>
+            </div>
+
+            <div class="form-group">
+                <label for="V26">V26</label>
+                <input type="number" id="V26" name="V26" required>
+            </div>
+
+            <div class="form-group">
+                <label for="V27">V27</label>
+                <input type="number" id="V27" name="V27" required>
+            </div>
+
+            <button type="submit"> Predict </button>
+        </form>
+        {% if prediction is not none %}
+        <div class="result">
+            {% if prediction == 0%}
+                <p>Legitimate</p>
+            {% elif prediction == 1%}
+                <p>Fraud</p>
+            {% endif %}
+        </div>
+        {% endif %}
+
+
+
+    </div>
+</body>
+</html>
