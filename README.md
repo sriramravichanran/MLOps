@@ -4,7 +4,7 @@
 
 This project demonstrates an end-to-end Machine Learning pipeline built using MLOps principles. The project covers the complete lifecycle of a machine learning application—from data ingestion to deployment—using a modular and production-ready architecture.
 
----
+--- 
 
 # Features 
 
